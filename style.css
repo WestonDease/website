@@ -1,0 +1,75 @@
+h1 {
+    font-family: sans-serif;
+    color: #7A7978;
+    font-size: 500%;
+    
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #7A7978;
+    font-size: 500%;
+
+    position: static;
+    padding-bottom: 50px;
+    
+}
+
+header {
+    background-color:  #87CBAC;
+}
+
+.project {
+    font-family: sans-serif;
+    color: #7A7978;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding-left: 75%;
+}
+
+article {
+    background-color: #8AC4FF;
+    padding-bottom: 20px;
+}
+
+.view {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.link {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.github {
+    background-image: url(images/cat-icon-github-github-pages-user-computer-share-icon-source-code-black-png-clipart.jpg);
+
+}
+
+.stack {
+    background-image: url(images/index.jpg);
+
+}
+
+.linkedin {
+    background-image: url(images/external-content.duckduckgo.com.png);
+}
+
+@media only screen and (min-width: 600px) {
+
+}
