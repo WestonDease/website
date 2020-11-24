@@ -1,11 +1,18 @@
+body {
+    height: 100vh;
+    
+    background-color:  #87CBAC;
+}
+
 h1 {
     font-family: sans-serif;
     color: #7A7978;
     font-size: 500%;
     
+    position: relative;
     text-align: center;
-    padding-top: 20%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 20%;
 
 }
 
@@ -15,7 +22,7 @@ h2 {
     font-size: 500%;
 
     position: static;
-    padding-bottom: 50px;
+    padding-bottom: 5%a;
     
 }
 
@@ -40,7 +47,7 @@ nav {
 
 article {
     background-color: #8AC4FF;
-    padding-bottom: 20px;
+    padding-bottom: 6.25%;
 }
 
 .view {
@@ -54,6 +61,8 @@ article {
     height: 250px;
     background-repeat: no-repeat;
     background-position: center;
+
+    display: none;
 }
 
 .github {
