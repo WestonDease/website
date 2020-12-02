@@ -1,24 +1,27 @@
 body {
     height: 100vh;
+    width: 100%;
     
-    background-color:  #87CBAC;
+    background-color:  #000000;
+    margin: 0%;
+    font-family: 'Major Mono Display', monospace;
 }
 
 h1 {
-    font-family: sans-serif;
-    color: #7A7978;
+    font-family: 'Major Mono Display', monospace;
+    color: #ffffff;
     font-size: 500%;
     
     position: relative;
     text-align: center;
     padding-top: 15%;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 
 }
 
 h2 {
-    font-family: sans-serif;
-    color: #7A7978;
+    font-family: 'Major Mono Display', monospace;
+
     font-size: 500%;
 
     position: static;
@@ -27,12 +30,11 @@ h2 {
 }
 
 header {
-    background-color:  #87CBAC;
+    background-color:  #000000;
 }
 
 .project {
     font-family: sans-serif;
-    color: #7A7978;
     text-align: center;
 }
 
@@ -46,8 +48,8 @@ nav {
 }
 
 article {
-    background-color: #8AC4FF;
-    padding-bottom: 6.25%;
+    background-color: #ffffff;
+    margin: 10%;
 }
 
 .view {
@@ -63,6 +65,18 @@ article {
     background-position: center;
 
     display: none;
+}
+
+.project {
+    font-family: 'Major Mono Display', monospace;
+    color: #000000;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+a {
+    text-decoration:none;
 }
 
 .github {
