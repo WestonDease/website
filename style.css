@@ -15,7 +15,7 @@ h1 {
     position: relative;
     text-align: center;
     padding-top: 15%;
-    padding-bottom: 5%;
+    padding-bottom: 20%;
 
 }
 
@@ -43,13 +43,17 @@ nav {
     grid-gap: 3px;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    
 
-    padding-left: 75%;
 }
 
 article {
     background-color: #ffffff;
     margin: 10%;
+    margin-top: 1%;
 }
 
 .view {
@@ -60,11 +64,12 @@ article {
 }
 
 .link {
-    height: 250px;
+
     background-repeat: no-repeat;
     background-position: center;
-
-    display: none;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: bottom;
 }
 
 .project {
@@ -77,20 +82,6 @@ article {
 
 a {
     text-decoration:none;
-}
-
-.github {
-    background-image: url(images/cat-icon-github-github-pages-user-computer-share-icon-source-code-black-png-clipart.jpg);
-
-}
-
-.stack {
-    background-image: url(images/index.jpg);
-
-}
-
-.linkedin {
-    background-image: url(images/external-content.duckduckgo.com.png);
 }
 
 @media only screen and (max-width: 600px) {
